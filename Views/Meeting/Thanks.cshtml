@@ -1,0 +1,19 @@
+@model UserInfo
+
+<main class="text-center">
+    <h1 class="h4">Meeting Summary
+</h1>
+    
+    @if (Model.WillAttend == true)
+    {
+        <p> @ViewBag.UserCount people are participating..</p>
+        <a class="btn btn-outline-primary" asp-controller="Meeting" asp-action="List">List to participants</a>
+    }
+    else
+    {
+        <p>@Model.Name, We're sorry you couldn't attend.
+.</p>
+        <a class="btn btn-outline-danger" asp-controller="Meeting" asp-action="Apply">Participate Form</a>
+    }
+    
+</main>

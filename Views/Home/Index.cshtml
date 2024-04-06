@@ -1,0 +1,24 @@
+@model MeetingInfo
+@{
+    ViewBag.Title = "Main Page";
+    Layout = "_Layout2";
+}
+
+<main class="text-center">
+    <h1 class="h4">@ViewBag.sayhi@ViewBag.UserName</h1>
+    <p>Report Your Meeting Participation Status!</p>
+    <div class="card my-2">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                @Model.MeetingLocation
+            </li>
+            <li class="list-group-item">
+                @Model.MeetingDate.ToString("dd/MM/yyyy HH:mm:ss")
+            </li>
+            <li class="list-group-item">
+                        @Model.MeetingNumberOfPeople  Participant
+                    </li>
+        </ul>
+    </div>
+    <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply" >Başvuru Yap</a>
+</main>

@@ -1,0 +1,27 @@
+@model UserInfo
+
+<h1 class="h4 text-center">Meeting Participation Form</h1>
+<form method="post" action="/Meeting/Apply" novalidate>
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Name">Name</label>
+        <input class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Phone">Phone</label>
+        <input class="form-control" asp-for="Phone">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Email">Email</label>
+        <input class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="WillAttend">Will Attend?</label>
+        <select asp-for="WillAttend" class="form-select">
+            <option value="" selected>Choose here</option>
+            <option value="true">Yes,I will</option>
+            <option value="false">No, I won't</option>
+        </select>
+    </div>
+    <button class="btn btn-primary" type="submit">Kaydet</button>
+</form>

@@ -1,0 +1,14 @@
+.validation-summary-errors{
+    color: #b02a37;
+    font-family: Cambria;
+    
+    
+}
+
+.validation-summary-errors>ul{
+    list-style: none;
+}
+
+.input-validation-error{
+    border: 1px solid red;
+}
