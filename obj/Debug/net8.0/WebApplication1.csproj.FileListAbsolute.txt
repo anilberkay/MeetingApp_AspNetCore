@@ -27,3 +27,4 @@ C:\Users\anlbe\OneDrive\Masaüstü\ForRiderWeb\WebApplication1\WebApplication1\o
 C:\Users\anlbe\OneDrive\Masaüstü\ForRiderWeb\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
 C:\Users\anlbe\OneDrive\Masaüstü\ForRiderWeb\WebApplication1\WebApplication1\bin\Debug\net8.0\libman.json
 C:\Users\anlbe\OneDrive\Masaüstü\ForRiderWeb\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\anlbe\OneDrive\Masaüstü\ForRiderWeb\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
